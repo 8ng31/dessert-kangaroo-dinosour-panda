@@ -3,5 +3,5 @@
 This repo includes projects I have worked on during my undergraduate studies. 
 Context behind projects includes:
 - Implementing Operating System Simulation (Using C)
-- Using Scrum methodologies for group work (Using Java)
-- Creating Data Structures (Python, Java, C)
+- Parallel and Distributed Programming
+- Creating Data Structures (Java, C)
