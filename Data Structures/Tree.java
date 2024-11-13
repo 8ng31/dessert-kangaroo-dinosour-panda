@@ -1,8 +1,6 @@
 /*
  * AUTHOR: Angel Benavides
  * FILE: Tree.java
- * COURSE: Cs 345, Fall 2022
- * ASSIGNMENT: Project 5
  * PURPOSE: Implement a RLRB tree.
  */
 import java.lang.Math.*;
