@@ -1,8 +1,6 @@
 /* 
  * AUTHOR: Angel Benavides
  * FILE: PatientQueue.Java
- * ASSIGNMENT: PA9 - PatientQueue
- * COURSE: CSc 210; Spring 2022
  * PURPOSE: Create a data structure "PriorityQueue" that keeps 
  * track of patients in an array and sorts them in order of higher 
  * priority using Binary minimum heap data structure. Has 11 methods including 
