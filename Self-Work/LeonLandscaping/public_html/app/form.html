@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leon Landscaping - Service Request</title>
+    <link rel="stylesheet" href="app/styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Leon Landscaping</h1>
+        <h2>Service Request Form</h2>
+
+        <form action="/submit" method="POST">
+            <div class="form-group">
+                <!-- Name Input -->
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+            </div>
+
+            <div class="form-group">
+                <!-- Phone Number Input -->
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+            </div>
+
+            <div class="form-group">
+                <!-- Email Input -->
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+            </div>
+
+            <div class="form-group">
+                <!-- Address Input -->
+                <label for="address">Address:</label>
+                <input type="text" id="address" name="address" placeholder="Enter your street address" required>
+            </div>
+
+            <div class="form-group">
+                <!-- City Input -->
+                <label for="city">City:</label>
+                <input type="text" id="city" name="city" placeholder="Enter your city" required>
+            </div>
+
+            <div class="form-group">
+                <!-- Zip Code Input -->
+                <label for="zip">Zip Code:</label>
+                <input type="text" id="zip" name="zip" placeholder="Enter your zip code" required>
+            </div>
+
+            <div class="form-group">
+                <!-- Business or Residential Input -->
+                <label for="service-type">Service Type:</label>
+                <select id="serviceType" name="serviceType" required>
+                    <option value="" disabled selected>Select type</option>
+                    <option value="residential">Residential</option>
+                    <option value="business">Business</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <!-- Size of Area Input -->
+                <label for="size">Size of Area (in square feet):</label>
+                <input type="number" id="size" name="size" placeholder="Enter the area size" required>
+            </div>
+
+            <!-- Submit Button -->
+            <button type="submit">Request Service</button>
+        </form>
+    </div>
+
+</body>
+</html>
+
